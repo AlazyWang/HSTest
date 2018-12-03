@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Dog.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    Dog *dog = [[Dog alloc]init];
+    
     return YES;
 }
 
