@@ -14,6 +14,7 @@
 		2EA1ED8221B4C570004008AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA1ED8021B4C570004008AD /* LaunchScreen.storyboard */; };
 		2EA1ED8521B4C570004008AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1ED8421B4C570004008AD /* main.m */; };
 		2EA1ED8D21B4C593004008AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1ED8C21B4C593004008AD /* Person.m */; };
+		2EA1ED9121B4CE94004008AD /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1ED8F21B4CE94004008AD /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		2EA1ED8421B4C570004008AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EA1ED8B21B4C593004008AD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		2EA1ED8C21B4C593004008AD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2EA1ED8F21B4CE94004008AD /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		2EA1ED9021B4CE94004008AD /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 		2EA1ED6921B4C56E004008AD = {
 			isa = PBXGroup;
 			children = (
+				2EA1ED8E21B4CE94004008AD /* Classes */,
 				2EA1ED7421B4C56E004008AD /* HSTest */,
 				2EA1ED7321B4C56E004008AD /* Products */,
 			);
@@ -74,6 +78,15 @@
 				2EA1ED8421B4C570004008AD /* main.m */,
 			);
 			path = HSTest;
+			sourceTree = "<group>";
+		};
+		2EA1ED8E21B4CE94004008AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2EA1ED8F21B4CE94004008AD /* Cat.m */,
+				2EA1ED9021B4CE94004008AD /* Cat.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 				2EA1ED8521B4C570004008AD /* main.m in Sources */,
 				2EA1ED8D21B4C593004008AD /* Person.m in Sources */,
 				2EA1ED7721B4C56E004008AD /* AppDelegate.m in Sources */,
+				2EA1ED9121B4CE94004008AD /* Cat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
