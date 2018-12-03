@@ -14,7 +14,6 @@
 		2EA1ED8221B4C570004008AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA1ED8021B4C570004008AD /* LaunchScreen.storyboard */; };
 		2EA1ED8521B4C570004008AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1ED8421B4C570004008AD /* main.m */; };
 		2EA1ED8D21B4C593004008AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1ED8C21B4C593004008AD /* Person.m */; };
-		2EA1ED9121B4CE94004008AD /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1ED8F21B4CE94004008AD /* Cat.m */; };
 		2EA1ED9421B4D011004008AD /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1ED9321B4D011004008AD /* Dog.m */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +30,6 @@
 		2EA1ED8421B4C570004008AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EA1ED8B21B4C593004008AD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		2EA1ED8C21B4C593004008AD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		2EA1ED8F21B4CE94004008AD /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
-		2EA1ED9021B4CE94004008AD /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		2EA1ED9221B4D011004008AD /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		2EA1ED9321B4D011004008AD /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,8 +83,6 @@
 		2EA1ED8E21B4CE94004008AD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2EA1ED8F21B4CE94004008AD /* Cat.m */,
-				2EA1ED9021B4CE94004008AD /* Cat.h */,
 				2EA1ED9221B4D011004008AD /* Dog.h */,
 				2EA1ED9321B4D011004008AD /* Dog.m */,
 			);
@@ -169,7 +164,6 @@
 				2EA1ED8521B4C570004008AD /* main.m in Sources */,
 				2EA1ED8D21B4C593004008AD /* Person.m in Sources */,
 				2EA1ED7721B4C56E004008AD /* AppDelegate.m in Sources */,
-				2EA1ED9121B4CE94004008AD /* Cat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
